@@ -305,7 +305,7 @@ blockquote span {
 /* MEDIA QUERIES
 /*******************************************/
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .fa-bars {
     display: none;
@@ -315,10 +315,15 @@ blockquote span {
       display: inline-block;
     }
 
-  .post {
+  .posts {
     float: left;
-    width: 35%;
+    /*width: 35%;*/
     font-size: 0.7rem;
+  }
+
+  .sidebar {
+    float: none;
+    display: block;
   }
 
 }
